@@ -11,7 +11,7 @@ ul {
 li a {
   display: block;
   width: 60px;
-  background-color: #dddddd;
+  background-color: #111;
 }
 </style>
 </head>
@@ -24,7 +24,6 @@ li a {
   <li><a href="opmaak.css">opmaak</a></li>
 </ul>
 
-<p>A background color is added to the links to show the link area.</p>
-<p>Notice that the whole link area is clickable, not just the text.</p>
+
 
 </body>
