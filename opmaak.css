@@ -1,71 +1,37 @@
-body {
-
-margin: 0px;
-
-}
-
-.navbar {
-
-background-color: black;
-
-}
-
-a {
-
-background-color: black;
-
-border: none;
-
-color: white;
-
-padding: 0px 0px;
-
-text-align: center;
-
-text-decoration: none;
-
-font-size: 16px;
-
-margin: 0px 0px;
-
-cursor: pointer;
-
-}
-
+<!DOCTYPE html>
+<html>
+<head>
+<style>
 ul {
-
-list-style-type: none;
-
-margin: 0;
-
-padding: 0;
-
-overflow: hidden;
-
-background-color: black;
-
+  list-style-type: none;
+  margin: 0; 
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+  }
+li { 
+  float: left;
 }
-
-li {
-
-float: left;
-
-}
-
 li a {
-
-display: block;
-
-padding: 20px;
-
-background-color: black;
-
-font-family: Arial, Helvetica, sans-serif;
-
-}
+  display: block;
+  color: black; 
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
 
 li a:hover {
+  background-color: pink;
+  }
+</style>
+</head>
+<body>
 
-background-color: grey;
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="binairstelsel.html">BINAIRSTELSEL</a></li>
+  <li><a href="kleurmodellen.html">Kleurmodellen</a></li>
+  <li><a href="opmaak.css">opmaak</a></li>
+</ul>
 
-}
+
+</body>
