@@ -3,23 +3,23 @@
 <head>
 <style>
 ul {
-  list-style-type: none;
-  margin: 0; 
-  padding: 0;
-  overflow: hidden;
-  background-color: grey;
+  list-style-type: none; <!-- dit zijn bijvoorbeeld bullets-->
+  margin: 0; <!--de ruimte tussen een element en andere elementen-->
+  padding: 0; <!--de ruimte tussen een element en de inhoud van dat element-->
+  overflow: hidden; 
+  background-color: grey; <!--kleur van de achtergrond-->
   }
 li { 
   float: left;
 }
 li a {
-  display: block;
-  color: black; 
-  text-align: left;
+  display: block; <!--element wordt als een blok weergegeven-->
+  color: black; <!--de kleur van de tekst-->
+  text-align: left; <!--waar de tekst komt te staan-->
   padding: 14px 16px;
   text-decoration: none;
 
-li a:hover {
+li a:hover { <!--dit element wordt geselecteerd als jer er met je muis overheen gaat-->
   background-color: pink;
   }
 </style>
